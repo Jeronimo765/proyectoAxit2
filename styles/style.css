@@ -1064,7 +1064,7 @@ button:hover {
     .imagenes-comentarios {
         justify-content: center;
         gap: 20px;
-
+     
     }
 
     .imagenes-comentarios img {
@@ -1081,19 +1081,6 @@ button:hover {
         margin-left: 15px;
     }
 
-    .nombres1,
-    .nombres2,
-    .nombres3 {
-        display: flex;
-        flex-direction: column;
-        /* Cambia de fila a columna */
-        align-items: center;
-        /* Centra el texto horizontalmente */
-        gap: 2px;
-        /* Opcional: espacio pequeño entre nombres */
-    }
-
-
     .personas .img-persona2 {
         margin-left: 10px;
     }
@@ -1102,8 +1089,9 @@ button:hover {
         margin-right: 170px;
     }
 
-    .img-persona1 .manager1 {
-        margin-right: 20px;
+    .personas div {
+        margin-right: 0;
+        
     }
 
     .contendor-calle {
