@@ -1028,12 +1028,12 @@ button:hover {
         gap: 20px;
         margin-left: 0px;
         padding-left: 10px;
-        
+
     }
 
     .contendor-texto {
         margin-left: 100px;
-      
+
     }
 
     .img-standard {
@@ -1043,7 +1043,7 @@ button:hover {
 
     .img-standard img {
         width: 300px;
-       
+
     }
 
 
@@ -1061,14 +1061,49 @@ button:hover {
         margin-left: 0;
     }
 
+    .imagenes-comentarios {
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .imagenes-comentarios img {
+        width: 270px;
+    }
+
     .personas {
-        flex-direction: column;
+        justify-content: space-between;
         gap: 40px;
         margin-top: 20px;
     }
 
-    .personas div {
-        margin-right: 0;
+    .personas .img-persona1 {
+        margin-left: 15px;
+    }
+
+    .nombres1,
+    .nombres2,
+    .nombres3 {
+        display: flex;
+        flex-direction: column;
+        /* Cambia de fila a columna */
+        align-items: center;
+        /* Centra el texto horizontalmente */
+        gap: 2px;
+        /* Opcional: espacio pequeño entre nombres */
+    }
+
+
+    .personas .img-persona2 {
+        margin-left: 10px;
+    }
+
+    .personas .img-persona3 {
+        margin-right: 170px;
+    }
+
+    .img-persona1 .manager1 {
+        margin-right: 20px;
     }
 
     .contendor-calle {
