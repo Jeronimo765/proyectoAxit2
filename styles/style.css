@@ -826,9 +826,9 @@ button:hover {
 
 
 @media (max-width: 1279px) {
-    .div {
-        width: 100%;
-    }
+
+
+
     .encabezado {
         display: flex;
         flex-direction: column;
@@ -1070,20 +1070,22 @@ button:hover {
 @media (max-width: 920px) {
 
 
-    .logo img {
-        margin-left: 25px;
+    div div {
+        max-width: 100%;
     }
 
-    .img-axit img {
-        margin-left: 120px;
+    .logo img {
+      margin-left: 80px;
     }
 
     .titulo-principal {
-        margin-left: 50px;
+
+        margin-left: 130px;
+        width: 600px;
     }
 
     .linea {
-        margin-left: 50px;
+        margin-left: 110px;
     }
 
     .titulo {
@@ -1092,7 +1094,12 @@ button:hover {
     }
 
     .titulo p {
-        margin-left: 60px;
+        margin-left: 70px;
+        width: 350px;
+    }
+
+    .titulo button {
+        margin-left: 130px;
     }
 
     form {
@@ -1102,7 +1109,7 @@ button:hover {
     }
 
     .titulo button {
-        margin-left: 70px;
+        margin-left: 130px;
     }
 
     .marcas {
