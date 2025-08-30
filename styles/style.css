@@ -627,106 +627,53 @@ button {
 
 .personas {
     display: flex;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 50px;
+    gap: 40px;
+    margin-top: 20px;
+    
 }
 
-.personas div {
+.personas .img-persona1 {
+    margin-left: 20px;
+}
+
+.personas>div {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    text-align: center;
-    margin-right: 160px;
 }
 
 .personas img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-bottom: 10px;
 }
 
-.personas h3 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-    color: #222;
-}
-
-.personas p {
-    margin: 0;
-    font-size: 14px;
-    color: #777;
-}
-
-.titulo-contact {
-    text-align: center;
-}
-
-.parrafo-contact {
-    text-align: center;
-}
-
-.nombres1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.nombres1 .jeremy {
-    color: #000;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.nombres1 .manager1 {
-    font-size: 14px;
-    color: #777;
-    margin-top: 40px;
-    margin-right: 170px;
-}
-
-.nombres2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.nombres2 .susan {
-    color: #000;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.nombres2 .freelancer {
-    font-size: 14px;
-    color: #777;
-    margin-top: 40px;
-    margin-right: 170px;
-}
-
+.nombres1,
+.nombres2,
 .nombres3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
-.nombres3 .jhon {
-    color: #000;
-    font-size: 18px;
-    font-weight: bold;
+.nombres1 p,
+.nombres2 p,
+.nombres3 p {
     margin: 0;
 }
 
-.nombres3 .photographer {
-    font-size: 14px;
-    color: #777;
-    margin-top: 40px;
-    margin-right: 170px;
+.jeremy,
+.susan,
+.jhon {
+    font-weight: bold;
+    font-size: 16px;
 }
+
+.manager1,
+.freelancer,
+.photographer {
+    font-size: 14px;
+    color: gray;
+}
+
 
 .contenedor-calle {
     background-image: linear-gradient(to bottom,
@@ -1064,7 +1011,7 @@ button:hover {
     .imagenes-comentarios {
         justify-content: center;
         gap: 20px;
-     
+
     }
 
     .imagenes-comentarios img {
@@ -1091,7 +1038,7 @@ button:hover {
 
     .personas div {
         margin-right: 0;
-        
+
     }
 
     .contendor-calle {
