@@ -1498,7 +1498,7 @@ button:hover {
         font-size: 14px;
     }
 
-   
+
     form {
         width: 90%;
         max-width: 350px;
@@ -1509,7 +1509,7 @@ button:hover {
 
     form input {
         width: 100%;
-    
+
     }
 
     .marcas {
@@ -1540,21 +1540,23 @@ button:hover {
     .tab1 {
         margin-bottom: 2px;
     }
+
     .tab2 {
         margin-bottom: 2px;
     }
 
     .cajas2 {
         flex-direction: column;
-       
+
     }
+
     .titulo-tabs2 {
         margin-left: 5px;
     }
 
     .titulo-tabs p {
         font-size: 14px;
-        
+
         margin-left: 15px;
     }
 
@@ -1587,14 +1589,14 @@ button:hover {
         gap: 12px;
     }
 
-    .contendor-standard h2 {
-        font-size: 30px;
-    }
-
-    /* Standard */
     .contendor-standard {
         flex-direction: column;
         gap: 30px;
+        font-size: 30px;
+    }
+
+     .contendor-texto .linea3 {
+        margin-right: 200px;
     }
 
     .contendor-texto {
@@ -1604,9 +1606,13 @@ button:hover {
     }
 
     .contendor-texto h2 {
-        font-size: 18px;
-        margin: 0 auto 10px;
+        font-size: 20px;
+        padding-top: 40px;
+        margin: 0 0 0 auto;
+        text-align: right;
     }
+
+
 
     .parrafito-gris {
         max-width: 100%;
