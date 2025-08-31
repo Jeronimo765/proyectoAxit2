@@ -1449,6 +1449,16 @@ button:hover {
         line-height: 1.5;
     }
 
+    .encabezado {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 40px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
 
     .logo img {
         margin: 15px auto;
@@ -1501,14 +1511,16 @@ button:hover {
 
     form {
         width: 90%;
-        max-width: 350px;
+        max-width: 210px;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 0;
     }
 
     form input {
-        width: 100%;
+        width: 90%;
 
     }
 
@@ -1595,14 +1607,15 @@ button:hover {
         font-size: 30px;
     }
 
-     .contendor-texto .linea3 {
-        margin-right: 200px;
+    .contendor-texto .linea3 {
+        margin-left: 130px;
     }
 
     .contendor-texto {
         max-width: 90%;
         margin: 0 auto;
         text-align: center;
+        margin-right: 260px;
     }
 
     .contendor-texto h2 {
@@ -1611,8 +1624,6 @@ button:hover {
         margin: 0 0 0 auto;
         text-align: right;
     }
-
-
 
     .parrafito-gris {
         max-width: 100%;
@@ -1640,7 +1651,22 @@ button:hover {
         text-align: center;
     }
 
-    /* Comentarios */
+    .tarjetas-juntas .tarjeta1 {
+        width: 250%;
+        max-width: 400px;
+    }
+
+    .tarjetas-juntas .tarjeta2 {
+        width: 250%;
+        max-width: 400px;
+    }
+
+    .tarjetas-juntas .tarjeta3 {
+        width: 250%;
+        max-width: 400px;
+    }
+
+
     .imagenes-comentarios {
         display: flex;
         justify-content: center;
@@ -1650,7 +1676,7 @@ button:hover {
     }
 
     .imagenes-comentarios .clientes img {
-        width: 200px;
+        width: 270px;
     }
 
     .clientes p {
@@ -1658,7 +1684,7 @@ button:hover {
         margin-top: 5px;
     }
 
-    /* Personas */
+
     .personas {
         flex-direction: column;
         align-items: center;
@@ -1671,5 +1697,23 @@ button:hover {
     .personas .img-persona3 {
         margin: 0 auto;
         max-width: 100%;
+        margin-right: 200px;
+    }
+
+    .parrafo-stylish {
+        display: flex;
+        justify-content: flex-end;
+        color: #FFFFFF;
+    }
+
+    .contenedor-contact {
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .redes img {
+        width: 290px;
     }
 }
