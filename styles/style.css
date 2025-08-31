@@ -1203,7 +1203,8 @@ button:hover {
 
 @media (max-width: 768px) {
 
-     html, body {
+    html,
+    body {
         overflow-x: hidden;
         width: 100%;
     }
@@ -1326,7 +1327,7 @@ button:hover {
 
     .contendor-sub .img img {
         width: 100%;
-      
+
         margin-left: 25px;
     }
 
@@ -1344,7 +1345,7 @@ button:hover {
     }
 
 
-   
+
     .contendor-standard {
         display: flex;
         flex-direction: column;
@@ -1365,7 +1366,7 @@ button:hover {
         width: 300px;
     }
 
-    .parrafito-gris p{
+    .parrafito-gris p {
         margin-left: 50px;
     }
 
@@ -1429,10 +1430,240 @@ button:hover {
         align-items: center;
         gap: 15px;
     }
+
     .personas .img-persona1,
     .personas .img-persona2,
     .personas .img-persona3 {
         margin: 0 auto;
-      
+
+    }
+}
+
+@media (max-width: 480px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    .logo img {
+        margin: 15px auto;
+        width: 100px;
+        display: block;
+    }
+
+
+    .img-axit img {
+        margin: 20px auto;
+        max-width: 90%;
+        height: auto;
+        display: block;
+    }
+
+
+    .titulo-principal {
+        font-size: 20px;
+        text-align: right;
+        line-height: 1.3;
+        margin: 10px 0;
+
+    }
+
+    .linea {
+        margin: 15px auto;
+        width: 60%;
+        height: 2px;
+    }
+
+    .titulo p {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    .titulo {
+        font-size: 16px;
+        text-align: center;
+        margin: 12px auto;
+        padding: 0 10px;
+    }
+
+    .titulo button {
+        margin: 20px auto;
+        display: block;
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+   
+    form {
+        width: 90%;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    form input {
+        width: 100%;
+    
+    }
+
+    .marcas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 20px auto;
+    }
+
+    .marcas img {
+        width: 35px;
+        margin-right: 20px;
+    }
+
+    .contenedor-cajas,
+    .cajas2,
+    .contendor-sub,
+    .contendor-standard,
+    .contenedor-list {
+        width: 100%;
+        max-width: 95%;
+        margin-right: 50px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .tab1 {
+        margin-bottom: 2px;
+    }
+    .tab2 {
+        margin-bottom: 2px;
+    }
+
+    .cajas2 {
+        flex-direction: column;
+       
+    }
+    .titulo-tabs2 {
+        margin-left: 5px;
+    }
+
+    .titulo-tabs p {
+        font-size: 14px;
+        
+        margin-left: 15px;
+    }
+
+    .img-edificios img {
+        margin-right: 250px;
+    }
+
+    .contendor-sub {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        margin: 25px auto;
+    }
+
+    .contendor-sub .img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .contendor-sub .img img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .contenedor-list {
+        font-size: 14px;
+        line-height: 1.6;
+        gap: 12px;
+    }
+
+    .contendor-standard h2 {
+        font-size: 30px;
+    }
+
+    /* Standard */
+    .contendor-standard {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contendor-texto {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contendor-texto h2 {
+        font-size: 18px;
+        margin: 0 auto 10px;
+    }
+
+    .parrafito-gris {
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .contendor-standard img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    /* Iconos */
+    .iconos {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .icono {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Comentarios */
+    .imagenes-comentarios {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        gap: 15px;
+    }
+
+    .imagenes-comentarios .clientes img {
+        width: 200px;
+    }
+
+    .clientes p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /* Personas */
+    .personas {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 20px auto;
+    }
+
+    .personas .img-persona1,
+    .personas .img-persona2,
+    .personas .img-persona3 {
+        margin: 0 auto;
+        max-width: 100%;
     }
 }
